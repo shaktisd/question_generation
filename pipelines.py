@@ -2,7 +2,13 @@ import itertools
 import logging
 from typing import Optional, Dict, Union
 
-from nltk import sent_tokenize
+#from nltk import sent_tokenize
+from spacy.tokenizer import Tokenizer
+from spacy.lang.en import English
+spacy_nlp = English()
+tokenizer = Tokenizer(spacy_nlp.vocab)
+spacy_nlp.add_pipe("sentencizer")
+
 
 import torch
 from transformers import(
@@ -112,7 +118,9 @@ class QGPipeline:
         return inputs
     
     def _prepare_inputs_for_ans_extraction(self, text):
-        sents = sent_tokenize(text)
+        #sents = sent_tokenize(text)
+        doc = spacy_nlp(text)
+        sents = [s.text for s in doc.sents]
 
         inputs = []
         for i in range(len(sents)):
@@ -134,22 +142,28 @@ class QGPipeline:
         for i, answer in enumerate(answers):
             if len(answer) == 0: continue
             for answer_text in answer:
-                sent = sents[i]
-                sents_copy = sents[:]
-                
-                answer_text = answer_text.strip()
-                
-                ans_start_idx = sent.index(answer_text)
-                
-                sent = f"{sent[:ans_start_idx]} <hl> {answer_text} <hl> {sent[ans_start_idx + len(answer_text): ]}"
-                sents_copy[i] = sent
-                
-                source_text = " ".join(sents_copy)
-                source_text = f"generate question: {source_text}" 
-                if self.model_type == "t5":
-                    source_text = source_text + " </s>"
-                
-                inputs.append({"answer": answer_text, "source_text": source_text})
+                try:
+                    sent = sents[i]
+                    sents_copy = sents[:]
+
+                    answer_text = answer_text.replace("<pad> ", "")
+
+                    answer_text = answer_text.strip()
+
+                    ans_start_idx = sent.index(answer_text)
+
+                    sent = f"{sent[:ans_start_idx]} <hl> {answer_text} <hl> {sent[ans_start_idx + len(answer_text): ]}"
+                    sents_copy[i] = sent
+
+                    source_text = " ".join(sents_copy)
+                    source_text = f"generate question: {source_text}"
+                    if self.model_type == "t5":
+                        source_text = source_text + " </s>"
+
+                    inputs.append({"answer": answer_text, "source_text": source_text})
+                except Exception as ex:
+                    #print('Error ', i)
+                    pass
         
         return inputs
     
