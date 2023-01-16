@@ -1,0 +1,58 @@
+Themes:
+
+Business Development:
+Sub-themes: Sales, Marketing, Partnerships, Networking
+Examples of prompts: "How to increase sales by 20% in the next quarter", "Creating a successful marketing campaign for a new product launch", "Building strategic partnerships to expand our business", "Networking tips for young professionals in the business industry"
+Finance and Accounting:
+Sub-themes: Budgeting, Taxation, Auditing, Financial Planning
+Examples of prompts: "Tips for creating a budget for small businesses", "Understanding tax laws for small businesses", "The importance of regular financial audits", "Creating a financial plan for retirement"
+Human Resources:
+Sub-themes: Recruitment, Employee Management, Employee Benefits, Diversity and Inclusion
+Examples of prompts: "Best practices for recruitment and hiring in the banking industry", "Effective employee management strategies", "Designing a comprehensive employee benefits package", "Creating a culture of diversity and inclusion in the workplace"
+Operations and Logistics:
+Sub-themes: Supply Chain Management, Inventory Management, Quality Control, Project Management
+Examples of prompts: "Improving supply chain efficiency in the banking industry", "Effective inventory management strategies", "Quality control measures in the banking industry", "Project management best practices for banking projects"
+Technology:
+Sub-themes: Cybersecurity, Data Management, Cloud Computing, Artificial Intelligence
+Examples of prompts: "Best practices for cybersecurity in the banking industry", "Data management strategies for the banking industry", "The benefits of cloud computing for banking operations", "Artificial intelligence in the banking industry: Opportunities and challenges"
+Legal and Compliance:
+Sub-themes: Regulations, Risk Management, Compliance, Legal Issues
+Examples of prompts: "Understanding banking regulations and compliance", "Risk management strategies for the banking industry", "Ensuring compliance with data protection laws", "Navigating legal issues in the banking industry"
+
+
+Business Development:
+"Creating a sales strategy to target small businesses in our local market"
+"Developing a marketing plan for our new digital banking services"
+"Creating a partnership program for local businesses to offer exclusive discounts to customers"
+"Networking opportunities for small business owners in our local community"
+"Tips for making the most of business networking events"
+Finance and Accounting:
+"Creating a budget for a small business to manage cash flow"
+"Understanding tax laws for small businesses in our country"
+"Tips for conducting an internal financial audit"
+"Creating a financial plan for a small business owner's retirement"
+"Best practices for financial management for small business"
+Human Resources:
+"Creating a recruitment strategy for hiring top talent in the banking industry"
+"Effective employee management strategies for remote teams"
+"Designing a comprehensive employee benefits package for small business"
+"Creating a culture of diversity and inclusion in the workplace for small business"
+"Tips for retaining top talent in the banking industry"
+Operations and Logistics:
+"Improving supply chain efficiency in the banking industry"
+"Effective inventory management strategies for small businesses"
+"Quality control measures in the banking industry"
+"Project management best practices for banking projects"
+"Creating an operations manual for small businesses"
+Technology:
+"Best practices for cybersecurity in the banking industry"
+"Data management strategies for the banking industry"
+"The benefits of cloud computing for banking operations"
+"Artificial intelligence in the banking industry: Opportunities and challenges"
+"Tips for securing sensitive data in the banking industry"
+Legal and Compliance:
+"Understanding banking regulations and compliance"
+"Risk management strategies for the banking industry"
+"Ensuring compliance with data protection laws"
+"Navigating legal issues in the banking industry"
+"Tips for conducting an internal compliance audit"
