@@ -56,3 +56,24 @@ Legal and Compliance:
 "Ensuring compliance with data protection laws"
 "Navigating legal issues in the banking industry"
 "Tips for conducting an internal compliance audit"
+
+
+Themes:
+
+Environmental:
+Sub-themes: Climate Change, Energy Efficiency, Renewable Energy, Sustainable Agriculture
+Examples of prompts: "How to reduce carbon emissions in the banking industry", "Energy efficiency measures for banking operations", "Investing in renewable energy for a sustainable future", "Promoting sustainable agriculture practices in the banking industry"
+Social:
+Sub-themes: Community Involvement, Social Impact, Human Rights, Diversity and Inclusion
+Examples of prompts: "Creating a community involvement program for the banking industry", "Measuring social impact of banking operations", "Advancing human rights in the banking industry", "Creating a culture of diversity and inclusion in the banking workplace"
+Governance:
+Sub-themes: Transparency, Accountability, Risk Management, Ethical Standards
+Examples of prompts: "Transparent and accountable banking practices", "Risk management strategies for ESG issues in the banking industry", "Promoting ethical standards in the banking industry", "Creating a code of conduct for ESG issues in the banking industry"
+For each category above, you can pass the following prompts to GPT to generate emails, articles, blogs, and technical writeups:
+
+"Write a persuasive email to shareholders on the importance of reducing carbon emissions in the banking industry"
+"Write an article on the benefits of investing in renewable energy for a sustainable future"
+"Write a blog post on promoting sustainable agriculture practices in the banking industry"
+"Write a technical writeup on how to measure the social impact of banking operations"
+"Write an email to customers on the steps we are taking to advance human rights in the banking industry"
+The examples above are a starting point, you can also come up with other themes and sub-themes that suit your business.
